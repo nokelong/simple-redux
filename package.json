@@ -1,5 +1,5 @@
 {
-  "name": "han",
+  "name": "simple-redux",
   "version": "1.0.0",
   "description": "this is react,redux project",
   "main": "index.js",
@@ -14,6 +14,10 @@
     "react",
     "redux"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nokelong/simple-redux"
+  },
   "author": "nokelong",
   "license": "MIT",
   "dependencies": {
@@ -32,6 +36,10 @@
     "extract-text-webpack-plugin": "^3.0.0",
     "html-webpack-plugin": "^2.30.1",
     "jsx-loader": "^0.13.2",
-    "webpack-cli": "^2.0.10"
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.8.2",
+    "webpack-merge": "^4.1.0"
   }
 }
